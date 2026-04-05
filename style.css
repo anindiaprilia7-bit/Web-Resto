@@ -1,0 +1,238 @@
+/* FONT */
+body{
+font-family: cursive,'Trebuchet MS',Arial,sans-serif;
+}
+
+/* WARNA UTAMA */
+.main-bg{
+background-color:rgb(114,2,114);
+}
+
+.main-color{
+background-color:rgb(114,2,114);
+color:white;
+}
+
+/* BANNER */
+.banner{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('https://i.pinimg.com/1200x/5e/a3/5a/5ea35a4bb758ea15932d00e8df116be3.jpg');
+background-size:cover;
+background-position:center;
+}
+
+/* HOVER CARD */
+.hovered-card{
+transition:0.3s;
+}
+
+.hovered-card:hover{
+transform:scale(1.05);
+}
+
+/* SECTION PELAYANAN */
+.icon-service{
+width:90px;
+height:90px;
+border:2px solid white;
+border-radius:50%;
+}
+
+/* TESTIMONY */
+.testimony{
+background:linear-gradient(to bottom,#7b007b,#5a005a);
+padding:60px 0;
+}
+
+.testimony-card{
+background:rgba(255,255,255,0.08);
+border-radius:20px;
+padding:25px;
+height:100%;
+transition:0.3s;
+backdrop-filter:blur(6px);
+text-align:center;
+}
+
+.testimony-card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,0.15);
+}
+
+.testimony-card h5{
+font-size:1rem;
+font-weight:bold;
+color:white;
+margin-bottom:5px;
+}
+
+.author{
+font-size:0.85rem;
+opacity:0.7;
+color:white;
+margin-bottom:10px;
+}
+
+.stars{
+color:gold;
+font-size:0.9rem;
+margin-bottom:10px;
+}
+
+.testimony-card p{
+font-size:0.85rem;
+color:rgba(255,255,255,0.85);
+}
+
+.quote-icon{
+font-size:2rem;
+opacity:0.5;
+margin-bottom:10px;
+}
+
+/* PRODUK */
+.produk-card{
+border:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+height:100%;
+}
+
+.produk-card:hover{
+transform:translateY(-5px);
+}
+
+.produk-card img{
+height:200px;
+object-fit:cover;
+}
+
+.produk-card .card-body{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.produk-title{
+color:#f59e0b;
+font-weight:600;
+font-size:16px;
+}
+
+.produk-desc{
+font-size:13px;
+color:#666;
+min-height:70px;
+}
+
+.produk-harga{
+color:#f59e0b;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+/* TOMBOL SELENGKAPNYA */
+.selengkapnya{
+border:1px solid #f59e0b;
+background:white;
+color:#f59e0b;
+font-size:13px;
+padding:6px;
+width:100%;
+}
+
+.selengkapnya:hover{
+background:#f59e0b;
+color:white;
+}
+
+/* FOOTER */
+.footer{
+background-color:#6c6c6c;
+padding:60px 0;
+text-align:center;
+}
+
+.footer .social-icon{
+font-size:1.6rem;
+color:white;
+transition:0.3s;
+}
+
+.footer .social-icon:hover{
+color:#FFC107;
+}
+
+footer .text-muted{
+  color: rgba(255,255,255,0.6) !important;
+}
+
+.banner-produk{
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url("https://i.pinimg.com/1200x/40/0a/05/400a05ff34409fe5d14aaabce37d2761.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+    body {
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+  
+    /* BUTTON CUSTOM */
+    .filter-btn {
+        margin:5px;
+        transition: 0.3s;
+    }
+
+    .filter-btn {
+  margin: 5px;
+  transition: 0.3s;
+}
+
+/* default (belum aktif) */
+.filter-btn {
+  background-color: transparent;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+/* saat aktif */
+.filter-btn.active {
+  background-color: #ffc107 !important;
+  color: black !important;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+}
+  
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+.footer {
+  background-color: #6c6c6c;
+  width: 100%;
+  margin: 0;
+}
+
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
